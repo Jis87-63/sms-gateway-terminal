@@ -1,5 +1,5 @@
 {
-  "api_url": "http://localhost:8000",
+  "api_url": "https://sms-gateway-terminal.onrender.com/",
   "gateway_id": "gateway-android-001",
   "name": "Android Gateway",
   "poll_seconds": 5
