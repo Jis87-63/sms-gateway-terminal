@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: sms-gateway-platform-api
+    env: docker
+    plan: starter
+    rootDir: backend
+    healthCheckPath: /health
+    envVars:
+      - key: ADMIN_USER
+        value: admin
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true

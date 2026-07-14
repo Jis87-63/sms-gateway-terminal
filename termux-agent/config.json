@@ -1,0 +1,6 @@
+{
+  "api_url": "http://localhost:8000",
+  "gateway_id": "gateway-android-001",
+  "name": "Android Gateway",
+  "poll_seconds": 5
+}
